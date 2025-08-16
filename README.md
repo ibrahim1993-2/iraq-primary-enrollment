@@ -13,10 +13,9 @@ All results are **reproducible**, **visualized**, and **documented** in both **H
 ## 📂 Project Structure
 
 Iraq_Data_Portfolio/
+├── IRQ_SE.PRM.ENRR.zip
 │
-├── IRQ_SE.PRM.ENRR.zip                      # Original dataset (World Bank export)
-│
-├── results/                                 # Core 9 insights (CSVs + charts)
+├── results/                     # Core 9 insights
 │   ├── enrollment_trend.png
 │   ├── enrollment_trend_regression.png
 │   ├── enrollment_trend_with_mean.png
@@ -30,23 +29,24 @@ Iraq_Data_Portfolio/
 │   ├── iraq_enrollment_statistics.csv
 │   └── iraq_primary_enrollment_clean.csv
 │
-│   └── bonus_insights/                      # Extra 5 insights (CSVs + charts)
-│       ├── enrollment_pre_post_1990.png
-│       ├── enrollment_pre_post_1990.csv
-│       ├── enrollment_cagr_peak.png
-│       ├── enrollment_cagr_peak.csv
-│       ├── enrollment_decade_volatility.png
-│       ├── enrollment_decade_volatility.csv
-│       ├── enrollment_peak_drop.png
-│       ├── enrollment_peak_drop.csv
-│       ├── enrollment_resilience.png
-│       └── enrollment_resilience_index.csv
+├── bonus_insights/              # Extra 5 insights
+│   ├── enrollment_pre_post_1990.png
+│   ├── enrollment_pre_post_1990.csv
+│   ├── enrollment_cagr_peak.png
+│   ├── enrollment_cagr_peak.csv
+│   ├── enrollment_decade_volatility.png
+│   ├── enrollment_decade_volatility.csv
+│   ├── enrollment_peak_drop.png
+│   ├── enrollment_peak_drop.csv
+│   ├── enrollment_resilience.png
+│   └── enrollment_resilience_index.csv
 │
-├── Iraq_Primary_Enrollment.ipynb            # Full notebook (core + bonus)
-├── Iraq_Primary_Enrollment.html             # Exported interactive notebook
-├── Iraq_Primary_Enrollment.pdf              # Polished PDF report
-├── MANIFEST.csv                             # File-to-description map
-└── README.txt                               # Plain-text project summary
+├── Iraq_Primary_Enrollment.ipynb
+├── Iraq_Primary_Enrollment.html
+├── Iraq_Primary_Enrollment.pdf
+├── MANIFEST.csv
+└── README.txt
+
 
 ---
 
