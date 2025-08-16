@@ -1,0 +1,23 @@
+path,type,description
+enrollment_average.png,PNG,Card-style image showing overall average
+enrollment_decade_average.png,PNG,Bar chart of average enrollment by decade
+enrollment_distribution.png,PNG,Histogram showing mean vs median distribution
+enrollment_highest_lowest.png,PNG,Bar chart for highest vs lowest years
+enrollment_recovery_1992_1999.png,PNG,Recovery from 1992 drop highlighted
+enrollment_trend.png,PNG,Overall trend of enrollment over time
+enrollment_trend_regression.png,PNG,Trend with linear regression line (slope)
+enrollment_trend_with_mean.png,PNG,Trend with overall average line
+enrollment_yoy_change.png,PNG,Year-over-year change line chart
+iraq_enrollment_growth_metrics.csv,CSV,Growth metrics (decade averages + YoY change)
+iraq_enrollment_statistics.csv,CSV,"Stats used for regression line, mean/median, and recovery checks"
+iraq_primary_enrollment_clean.csv,CSV,"Clean tidy dataset (Year, Enrollment) used for trend/highest/lowest"
+bonus_insights/enrollment_cagr_peak.csv,CSV,Bonus: CAGR from first valid year to peak year
+bonus_insights/enrollment_cagr_peak.png,PNG,Bonus visual: CAGR to peak
+bonus_insights/enrollment_decade_volatility.csv,CSV,Bonus: volatility (std dev) by decade
+bonus_insights/enrollment_decade_volatility.png,PNG,Bonus visual: decade volatility (std dev)
+bonus_insights/enrollment_peak_drop.csv,CSV,Bonus: peak (1991) to drop (1992) magnitude
+bonus_insights/enrollment_peak_drop.png,PNG,Bonus visual: 1991→1992 peak-to-drop
+bonus_insights/enrollment_pre_post_1990.csv,CSV,Bonus: average before 1990 vs 1990+
+bonus_insights/enrollment_pre_post_1990.png,PNG,Bonus visual: before vs after 1990 comparison
+bonus_insights/enrollment_resilience.png,PNG,Bonus visual: annotated recovery and resilience
+bonus_insights/enrollment_resilience_index.csv,CSV,Bonus: drop magnitude per recovery year (resilience)
