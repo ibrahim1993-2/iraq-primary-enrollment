@@ -1,52 +1,44 @@
-# 📊 Iraq Primary School Enrollment (1970–2023)
+🌍 Iraq Primary School Enrollment Analysis (1970–2023)
 
-This project explores Iraq’s primary school gross enrollment ratio from 1971–2023, combining SQL, Python (Pandas/Matplotlib), and Jupyter Notebook into a structured analysis.
+📌 Overview  
+This project explores Iraq’s **primary school gross enrollment ratio** from 1971–2023.  
+It combines **Python (Pandas/Matplotlib)** and **Jupyter Notebook** to analyze enrollment patterns and resilience before and after key historical events.
 
-It delivers **14 insights across two groups**:
+The goal is to deliver **clear, data-driven insights** into Iraq’s education trends across five decades.
 
-- **Core 9 Questions** → trend, decade averages, YoY changes, etc.  
-- **5 Bonus Insights** → pre/post 1990, volatility, resilience, etc.
+📊 Data Source  
+- 🌍 World Bank – *Gross enrollment ratio, primary, both sexes (%)*  
+- 📂 Dataset: `API_IRQ_SE.PRM.ENRR_EN_csv_v2_200041`  
 
-All results are reproducible, visualized, and documented in both **HTML** and **PDF** formats.
+✨ Key Features  
+- 📈 Long-term enrollment trend analysis (1971–2023)  
+- 🔄 Year-over-Year (YoY) change detection  
+- 📊 Decade-level averages & volatility checks  
+- 🛡 Resilience metrics for post-crisis recovery  
+- 🎯 Bonus insights (pre/post 1990, CAGR, peak/drop analysis)  
 
----
+🛠 Tools & Technologies  
+- 🐍 Python (Pandas, Matplotlib) – Data analysis & visualization  
+- 📓 Jupyter Notebook – Core workflow & documentation  
+- 📄 HTML & PDF exports – Portfolio-ready results  
 
-## 🔎 Core 9 Insights (with Visuals)
+📂 Repository Contents  
+- `Iraq_Primary_Enrollment.ipynb` → Full notebook (core + bonus insights)  
+- `Iraq_Primary_Enrollment.html` → Interactive HTML export  
+- `Iraq_Primary_Enrollment.pdf` → Polished PDF report  
+- `results/` → Core 9 insights (CSVs + charts)  
+- `bonus_insights/` → Extra 5 insights (CSVs + charts)  
+- `MANIFEST.csv` → File-to-description map  
+- `README.txt` → Plain-text summary  
 
-1. **Overall Trend** → Iraq enrollment improved until early 1990s, then dropped, later recovered.  
-2. **Trend with Regression** → Long-run slope is positive.  
-3. **Trend with Mean Line** → Mean ≈ 93.3%.  
-4. **Highest vs Lowest** → Peak: 1991 (111.2%); Lowest: 1971 (70.0%).  
-5. **Decade Averages** → 1980s highest; 1970s lowest.  
-6. **Year-over-Year Changes** → Biggest rise: 1979; Biggest drop: 1992.  
-7. **Overall Average (Card)** → 93.26%.  
-8. **Distribution (Mean vs Median)** → Median > Mean → skew from 1990s drop.  
-9. **Recovery (1992–1999)** → Enrollment recovered to 1992 levels by 1999.  
+🚀 How to Use  
+1. Open `Iraq_Primary_Enrollment.ipynb` in Jupyter Notebook.  
+2. Run all cells to reproduce the analysis and visuals.  
+3. Review results in either:  
+   - 📓 Notebook (`.ipynb`)  
+   - 🌐 HTML (`.html`)  
+   - 📄 PDF (`.pdf`)  
 
----
-
-## 💡 Bonus Insights (Extra 5)
-
-1. **Before vs After 1990** → Avg rose from 92.4% → 95.0%.  
-2. **CAGR to Peak (1971→1991)** → 2.34% per year growth.  
-3. **Decade Volatility** → Most volatile = 1970s; Least = 1980s.  
-4. **Peak-to-Drop (1991→1992)** → Sharp –16.8% fall.  
-5. **Resilience Index** → Recovery speed ≈ +2.67 points/year.  
-
----
-
-## 📑 Deliverables
-
-- 📓 **Jupyter Notebook:** `Iraq_Primary_Enrollment.ipynb`  
-- 🌐 **Interactive HTML:** `Iraq_Primary_Enrollment.html`  
-- 📄 **Polished PDF:** `Iraq_Primary_Enrollment.pdf`  
-- 📋 **Manifest:** `MANIFEST.csv`  
-
----
-
-## 🚀 Skills Demonstrated
-
-- **Data Cleaning & Preparation** → Removing nulls, structuring CSVs.  
-- **Exploratory Data Analysis (EDA)** → Trends, averages, YoY, volatility.  
-- **Visualization** → Matplotlib static plots for clarity.  
-- **Documentation** → Organized outputs, manifest tracking, portfolio-ready exports.  
+👤 Author  
+**Ibrahim Alsaegh**  
+🔗 [LinkedIn](#) | 💻 [GitHub](#)  
