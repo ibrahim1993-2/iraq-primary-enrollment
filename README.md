@@ -1,17 +1,17 @@
-🌍 Iraq Primary School Enrollment Analysis (1970–2023)
+🌍 Iraq Primary School Enrollment Analysis (1970–2007)
 
 📌 Overview  
-This project explores Iraq’s **primary school gross enrollment ratio** from 1971–2023.  
-It combines **Python (Pandas/Matplotlib)** and **Jupyter Notebook** to analyze enrollment patterns and resilience before and after key historical events.
+This project explores Iraq’s **primary school gross enrollment ratio** between 1970–2007.  
+It uses **Python (Pandas/Matplotlib)** and **Jupyter Notebook** to analyze historical enrollment trends and resilience before and after major disruptions.
 
-The goal is to deliver **clear, data-driven insights** into Iraq’s education trends across five decades.
+The goal is to deliver **clear, portfolio-ready insights** into Iraq’s education trends over nearly four decades.
 
 📊 Data Source  
 - 🌍 World Bank – *Gross enrollment ratio, primary, both sexes (%)*  
-- 📂 Dataset: `API_IRQ_SE.PRM.ENRR_EN_csv_v2_200041`  
+- 📂 Dataset: `IRQ_SE.PRM.ENRR.zip`  
 
 ✨ Key Features  
-- 📈 Long-term enrollment trend analysis (1971–2023)  
+- 📈 Long-term enrollment trend analysis (1970–2007)  
 - 🔄 Year-over-Year (YoY) change detection  
 - 📊 Decade-level averages & volatility checks  
 - 🛡 Resilience metrics for post-crisis recovery  
@@ -23,6 +23,7 @@ The goal is to deliver **clear, data-driven insights** into Iraq’s education t
 - 📄 HTML & PDF exports – Portfolio-ready results  
 
 📂 Repository Contents  
+- `IRQ_SE.PRM.ENRR.zip` → Original dataset (World Bank)  
 - `Iraq_Primary_Enrollment.ipynb` → Full notebook (core + bonus insights)  
 - `Iraq_Primary_Enrollment.html` → Interactive HTML export  
 - `Iraq_Primary_Enrollment.pdf` → Polished PDF report  
@@ -41,4 +42,4 @@ The goal is to deliver **clear, data-driven insights** into Iraq’s education t
 
 👤 Author  
 **Ibrahim Alsaegh**  
-🔗 [LinkedIn](#) | 💻 [GitHub](#)  
+🔗 [LinkedIn](https://www.linkedin.com/in/ibrahim-alsaegh) | 💻 [GitHub](https://github.com/ibrahim1993-2)  
